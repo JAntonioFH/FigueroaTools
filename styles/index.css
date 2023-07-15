@@ -1,5 +1,5 @@
 /**
- * Estilos para la página web
+ * Estilos generales para la página web
  */
 
 /* Importar la fuente "Martian Mono" desde Google Fonts */
@@ -10,119 +10,15 @@ body {
     font-family: 'Martian Mono', monospace;
     font-weight: bold;
     margin: 0;
-}
-
-/* Estilos para el encabezado */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #f2f2f2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    margin: 0;
-    margin-right: 10px;
-    width: 100%;
-    height: 6vh;
-}
-
-/* Estilos para el elemento con id "div1" */
-#div1 {
-    max-width: 50%;
-}
-
-/* Estilos para la imagen del encabezado */
-#img-header {
-    max-width: 10vh;
-    height: auto;
-}
-
-/* Estilos para la navegación */
-nav {
-    max-width: 100%;
-    flex-grow: 1;
-    text-align: right;
-    font-size: .7em; 
-}
-
-/* Estilos para la lista de elementos de navegación */
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilos para cada elemento de la lista de navegación */
-nav li {
-    display: inline-block;
-    width: 40%;
-    margin-right: 10px;
-}
-
-/* Estilos para los enlaces de navegación */
-nav a {
-    text-decoration: none;
-    color: #333;
-    padding: 5px;
-}
-
-/* Estilos para los enlaces de navegación al pasar el cursor por encima */
-nav a:hover {
-    background-color: #333;
-    color: #fff;
-}
-
-/* Estilos para la portada */
-
-.portada{
-    margin-top: 5vh;
-    width: 100%;
-    height: 30vh;
-    background-image: url('../sources/Fondos/fondo-div-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-/*Estilos de botones*/
-.contenedor-botones{
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-}
-.boton-herramienta-banamex {
-    background-size: cover;
-    background-image: url('../sources/Fondos/banamex/botonbanamex.png');
-    background-position: center;
-    border: none;
-    padding: 10px 60px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    height: 50%;
-    width: 20%;
-    margin: auto;
-    text-align: center; /* Centrar el texto horizontalmente */
-    line-height: 100%; /* Ajustar la altura de línea para centrar verticalmente el texto */
-    border-radius: 10px;
-}
-
-.boton-herramienta-banamex:hover {
-    background-color: #004785; /* Azul Banamex con hover */
-    color: #FFF; /* Texto en blanco */
-}
-
-.boton-herramienta-banamex:active {
-    background-color: #00264C; /* Azul Banamex al hacer clic */
-    color: #FFF; /* Texto en blanco */
+    background-image: linear-gradient(to right top, #000000, #270d1b, #430f38, #57175f, #5b2990, #6343ad, #6a5cc9, #7075e6, #9996ed, #beb7f4, #dfdbfa, #ffffff);
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
 }
 
 /* Estilos para la seccion de contenido*/
 .contenido{
+    background-image: url('../sources/Fondos/fondo-div-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 2vh 1px 3vh 1px;
     width: auto;
     height: 30vh;
@@ -145,13 +41,4 @@ nav a:hover {
     justify-content: center;
 }
 
-/* Estilos del pie de página */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-}
+
